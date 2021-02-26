@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/_LayoutPage1.cshtml";
+}
+
+<!-- page -->
+<div id="page" class="page">
+
+    <section class="w3l-forms-23">
+        <div class="forms23-block-hny bg bg1">
+            <div class="wrapper">
+                <h1 class="editContent">Welcome, Please Login !!</h1>
+
+
+
+                <div class="d-grid forms23-grids">
+                    <div class="form23 editContent">
+                        <div class="main-bg bg bg1">
+                            <h6 class="sec-one editContent">KN Solutions</h6>
+                            <div class="speci-login first-look">
+                                <img src="bundles/images/user.png" alt="" class="img-responsive" style="outline: none; cursor: inherit;">
+                            </div>
+                        </div>
+                        <div class="bottom-content">
+                            <form action="Verify" method="post">
+                                <div class="editContent" style="outline: none; cursor: inherit;">
+                                    <input type="text" name="Name" class="input-form" placeholder="Enter Username" required="required" autocomplete="on">
+                                </div>
+                                <div class="editContent" style="outline: none; cursor: inherit;">
+                                    <input type="password" name="Password" class="input-form" placeholder="Enter Password" required="required">
+                                </div>
+                                <button type="submit" class="loginhny-btn btn" style="outline: none; cursor: inherit;">Login</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3l-copy-right text-center">
+                    <p>
+                        © 2020 KN Solutions. All rights reserved | Design by
+                        <a href="https://web.facebook.com/usama.haider.3194/" target="_blank">Osama HaiDer</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //login-section -->
+</div><!-- /#page -->
